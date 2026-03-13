@@ -2,7 +2,7 @@ import {
 	AccountService,
 	SecurityService,
 	StaticProxiesService,
-} from "../";
+} from "../src";
 
 const accountService = new AccountService();
 const account = await accountService.registerAnonymous();
