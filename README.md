@@ -8,7 +8,7 @@ A powerful TypeScript wrapper for Urban VPN services. This library provides a cl
 - **Security Service**: Handle security-related tokens and signatures.
 - **Static Proxies**: Retrieve and manage geographic proxy locations.
 - **TypeScript Support**: Full type definitions for all API responses and requests.
-- **Axios-based**: Reliable HTTP requests with built-in retry logic (where applicable).
+- **HTTP-Proxy-Agent-based**: Reliable HTTP requests with built-in retry logic (where applicable).
 
 ## Installation
 
@@ -19,13 +19,13 @@ npm install urbanvpn-api-wrapper
 ## Quick Start
 
 ```typescript
-import { UrbanVPNClient } from 'urbanvpn-api-wrapper';
+import { UrbanVPNClient } from "urbanvpn-api-wrapper";
 
 const client = new UrbanVPNClient();
 
 async function main() {
-    const locations = await client.staticProxies.getLocations();
-    console.log(locations);
+  const locations = await client.staticProxies.getLocations();
+  console.log(locations);
 }
 
 main();
