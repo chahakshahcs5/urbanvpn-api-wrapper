@@ -1,6 +1,6 @@
 {
   "name": "@chahakshah/urbanvpn-api-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A TypeScript API wrapper for Urban VPN services.",
   "license": "ISC",
   "author": "",
