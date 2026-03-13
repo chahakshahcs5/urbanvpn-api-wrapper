@@ -1,0 +1,8 @@
+src/
+examples/
+tsconfig.json
+.gitignore
+.github/
+.npmrc
+*.ts
+!dist/**/*.d.ts
