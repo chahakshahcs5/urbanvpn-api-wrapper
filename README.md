@@ -13,13 +13,13 @@ A powerful TypeScript wrapper for Urban VPN services. This library provides a cl
 ## Installation
 
 ```bash
-npm install urbanvpn-api-wrapper
+npm install @chahakshah/urbanvpn-api-wrapper
 ```
 
 ## Quick Start
 
 ```typescript
-import { UrbanVPNClient } from "urbanvpn-api-wrapper";
+import { UrbanVPNClient } from "@chahakshah/urbanvpn-api-wrapper";
 
 const client = new UrbanVPNClient();
 
